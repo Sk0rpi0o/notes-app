@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Raleway:wght@300;900&family=Roboto:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(59,215,154);
+  background: radial-gradient(circle, rgba(59,215,154,1) 17%, rgba(214,178,240,1) 61%);
+  display: flex;
+  flex-wrap: wrap;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+
+}
+
+.notes {
+  background-color: white;
+  margin: 20px;
+  width: 400px;
+  height: 400px;
+}
+
+.notes .tools {
+  background-color: #9ec862;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0.5rem;
+}
+
+button img {
+  width: 15px;
+  height: 15px;
+
+}
+
+.notes .tools button {
+  background-color: transparent;
+  border: none;
+
+}
