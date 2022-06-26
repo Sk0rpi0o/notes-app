@@ -6,39 +6,41 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Notes App</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/0.0.2/marked.min.js"></script>
   <script src="script.js" defer></script>
 </head>
+
 <body>
   <div class="notes">
     <div class="tools">
 
-      <button>
-        <img src="images/dots.svg" alt="">
+      <button class="edit">
+        <i class="fa-solid fa-pen-to-square"></i>
       </button>
-
-      <button>
-        <img src="images/edit.svg" alt="">
+      <button class="delete">
+        <i class="fa-regular fa-trash-can"></i>
       </button>
-
       <button>
-        <img src="images/trash.svg" alt="">
+        <i class="fa-solid fa-ellipsis"></i>
+       </button>
+      <button>
+        <i class="fa-solid fa-plus"></i>
       </button>
-
       <button>
-        <img src="images/plus_2.svg" alt="">
+        <i class="fa-solid fa-gear"></i>
       </button>
-
       <button>
-        <img src="images/csettings.svg" alt="">
-      </button>
-
-      <button>
-        <img src="images/x.svg" alt="">
+        <i class="fa-solid fa-x"></i>
       </button>
 
     </div>
 
-    <textarea name="" id="" cols="48" rows="10"></textarea>
+    <div class="main hidden">
+
+    </div>
+
+    <textarea></textarea>
     
   </div>
 </body>

@@ -11,7 +11,6 @@ body {
   flex-wrap: wrap;
   font-family: 'Poppins', sans-serif;
   margin: 0;
-
 }
 
 .notes {
@@ -22,20 +21,33 @@ body {
 }
 
 .notes .tools {
-  background-color: #9ec862;
+  background-color: #7bdeff;
   display: flex;
   justify-content: flex-end;
   padding: 0.5rem;
 }
 
-button img {
-  width: 15px;
-  height: 15px;
-
-}
-
 .notes .tools button {
   background-color: transparent;
   border: none;
+  margin-left: 0.5rem;
+  color: rgb(255, 255, 255);
+  font-size: 1rem;
+}
 
+.notes .main {
+  height: 100%;
+  width: 100%;
+}
+
+.notes textarea {
+  outline: none;
+  font-family: inherit;
+  border: none;
+  height: 100%;
+  width: 100%;
+}
+
+.notes .hidden {
+  display: none;
 }
